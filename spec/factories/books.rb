@@ -16,7 +16,7 @@ subtitle 'Learn Web Development with Rails'
 isbn_10 '0134077709'
 isbn_13 '9780134077703'
 description 'The Rails Tutorial is great!'
-eleased_on '2013-05-09'
+released_on '2013-05-09'
 publisher_id nil
 association :author, factory: :michael_hartl
 end

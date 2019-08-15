@@ -2,7 +2,7 @@ class Book < ApplicationRecord
 
   mount_base64_uploader :cover, CoverUploader
 
-  belongs_to :publisher,required: true
+  belongs_to :publisher,required: false
   belongs_to :author
 
 
