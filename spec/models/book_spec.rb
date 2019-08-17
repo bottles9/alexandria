@@ -19,3 +19,4 @@ it 'has a valid factory' do
 expect(build(:book)).to be_valid
 end
 end
+#end
