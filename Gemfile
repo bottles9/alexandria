@@ -34,6 +34,7 @@ group :development, :test do
 
 gem 'rspec-rails'
 gem 'factory_girl_rails'
+gem 'vcr'
 end
 
 group :development do
@@ -58,3 +59,9 @@ gem 'carrierwave'
 gem 'carrierwave-base64'
 gem 'kaminari'
 gem 'pg_search'
+gem 'pundit'
+gem 'money-rails'
+gem 'stripe'
+gem 'oj'
+gem 'rack-cors', :require => 'rack/cors'
+gem 'rack-accept'
